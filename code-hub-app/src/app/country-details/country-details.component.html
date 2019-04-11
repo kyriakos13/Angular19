@@ -1,0 +1,9 @@
+<ul>
+    <li *ngFor="let country of countriesLink$ | async">
+        <span class="badge">
+            {{ country.capital }}-
+            {{ country.population }}-
+            {{ country.nativeName }}-
+            {{ country.subregion }}</span>
+    </li>
+</ul>
